@@ -14,7 +14,7 @@ public class Looper : StateMachineBehaviour
     if (timer >= loopDuration)
     {
       timer = 0f;
-      animator.SetTrigger("End");
+      anim.SetTrigger("End");
     }
   }
 }
